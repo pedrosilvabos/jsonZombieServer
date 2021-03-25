@@ -1,4 +1,16 @@
-{
+{"token":[
+    {
+        "id": 7,
+        "access_token": "ac6a9e50-52ce-4c8a-98b5-a9b15e1a6a7c",
+        "token_type": "Bearer",
+        "expires_in": 3600,
+        "refresh_token": "13320c5f-d274-4e3e-a1ce-e95cf9afea9f",
+        "scope": "openid customer_info oob oiplay",
+        "cpf": "11111212147",
+        "first_name": "João",
+        "email": "11111212147@oi.net.br"
+    } 
+],
   "posts": [
     {
       "id": 0,
