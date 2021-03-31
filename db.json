@@ -9,7 +9,7 @@
         "cpf": "11111212147",
         "first_name": "João",
         "email": "11111212147@oi.net.br"
-    } 
+    }
 ],
   "posts": [
     {
@@ -24118,10 +24118,2220 @@
         ]
     }
   ],
-  "mpd": [{
-    "mpd": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<!--Created with VSPP Streamer version 5.2.6.1 build  Commit_id: c33916f2ac254d5ffe3aebe13d60f00ddb9c1cf2 Commit_time: 1582294933 context INMALAAADPCNHEAG-->\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" profiles=\"urn:mpeg:dash:profile:isoff-live:2011\" type=\"dynamic\" availabilityStartTime=\"1970-01-01T00:00:00Z\" publishTime=\"2021-03-09T20:48:51Z\" timeShiftBufferDepth=\"PT23.026S\" minimumUpdatePeriod=\"PT1S\" maxSegmentDuration=\"PT2.006S\" minBufferTime=\"PT3S\"><Period id=\"1\" start=\"PT0S\"><AdaptationSet id=\"1\" group=\"1\" bitstreamSwitching=\"true\" segmentAlignment=\"true\" contentType=\"video\" mimeType=\"video/mp4\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" maxFrameRate=\"30000/1001\" startWithSAP=\"1\"><SegmentTemplate timescale=\"10000000\" media=\"S!dzF3ZWJU.v...wGf/QualityLevels($Bandwidth$)/Fragments(video=$Time$)\" initialization=\"S!dzF3ZWJU.v...wGf/QualityLevels($Bandwidth$)/Fragments(video=Init)\"><SegmentTimeline><S t=\"16153229049155280\" d=\"20020000\" r=\"9\"/></SegmentTimeline></SegmentTemplate><Representation id=\"dzHgkwSf\" bandwidth=\"300000\" codecs=\"avc1.4d0029\" width=\"320\" height=\"180\" frameRate=\"30000/1001\" sar=\"1:1\"/><Representation id=\"dzHAJwmf\" bandwidth=\"600000\" codecs=\"avc1.4d0029\" width=\"640\" height=\"360\" frameRate=\"30000/1001\" sar=\"1:1\"/><Representation id=\"dzFAQg-f\" bandwidth=\"1000000\" codecs=\"avc1.4d0029\" width=\"720\" height=\"404\" frameRate=\"30000/1001\" sar=\"1:1\"/><Representation id=\"dzGg8Bmf\" bandwidth=\"1700000\" codecs=\"avc1.4d0029\" width=\"854\" height=\"480\" frameRate=\"30000/1001\" sar=\"1:1\"/><Representation id=\"dzEACT2f\" bandwidth=\"4000000\" codecs=\"avc1.4d0029\" width=\"1280\" height=\"720\" frameRate=\"30000/1001\" sar=\"1:1\"/><Representation id=\"dzHAz2qf\" bandwidth=\"7000000\" codecs=\"avc1.4d0029\" width=\"1920\" height=\"1080\" frameRate=\"30000/1001\" sar=\"1:1\"/></AdaptationSet><AdaptationSet id=\"2\" group=\"32\" bitstreamSwitching=\"true\" segmentAlignment=\"true\" contentType=\"video\" mimeType=\"video/mp4\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" maxFrameRate=\"30000/1001\" startWithSAP=\"1\" codingDependency=\"false\"><EssentialProperty schemeIdUri=\"http://dashif.org/guidelines/trickmode\" value=\"1\"/><Role schemeIdUri=\"urn:mpeg:dash:role:2011\" value=\"alternate\"/><SegmentTemplate timescale=\"10000000\" media=\"S!dzF3ZWJU.v...wGf/QualityLevels($Bandwidth$)/Fragments(trickmode=$Time$)\" initialization=\"S!dzF3ZWJU.v...wGf/QualityLevels($Bandwidth$)/Fragments(trickmode=Init)\"><SegmentTimeline><S t=\"16153229049155280\" d=\"20020000\" r=\"9\"/></SegmentTimeline></SegmentTemplate><Representation id=\"trickmodedzHgkwSf\" bandwidth=\"300000\" codecs=\"avc1.4d0029\" width=\"320\" height=\"180\" frameRate=\"1\" sar=\"1:1\" maxPlayoutRate=\"29.97\"/><Representation id=\"trickmodedzHAJwmf\" bandwidth=\"600000\" codecs=\"avc1.4d0029\" width=\"640\" height=\"360\" frameRate=\"1\" sar=\"1:1\" maxPlayoutRate=\"29.97\"/><Representation id=\"trickmodedzFAQg-f\" bandwidth=\"1000000\" codecs=\"avc1.4d0029\" width=\"720\" height=\"404\" frameRate=\"1\" sar=\"1:1\" maxPlayoutRate=\"29.97\"/><Representation id=\"trickmodedzGg8Bmf\" bandwidth=\"1700000\" codecs=\"avc1.4d0029\" width=\"854\" height=\"480\" frameRate=\"1\" sar=\"1:1\" maxPlayoutRate=\"29.97\"/><Representation id=\"trickmodedzEACT2f\" bandwidth=\"4000000\" codecs=\"avc1.4d0029\" width=\"1280\" height=\"720\" frameRate=\"1\" sar=\"1:1\" maxPlayoutRate=\"29.97\"/><Representation id=\"trickmodedzHAz2qf\" bandwidth=\"7000000\" codecs=\"avc1.4d0029\" width=\"1920\" height=\"1080\" frameRate=\"1\" sar=\"1:1\" maxPlayoutRate=\"29.97\"/></AdaptationSet><AdaptationSet id=\"3\" group=\"2\" bitstreamSwitching=\"true\" segmentAlignment=\"true\" contentType=\"audio\" mimeType=\"audio/mp4\" lang=\"por\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><SegmentTemplate timescale=\"48000\" media=\"S!dzF3ZWJU.v...wGf/QualityLevels($Bandwidth$)/Fragments(audio_482_por=$Time$)\" initialization=\"S!dzF3ZWJU.v...wGf/QualityLevels($Bandwidth$)/Fragments(audio_482_por=Init)\"><SegmentTimeline><S t=\"77535499436645\" d=\"96256\" r=\"1\"/><S d=\"95232\"/><S d=\"96256\" r=\"4\"/><S d=\"95232\"/><S d=\"96256\"/></SegmentTimeline></SegmentTemplate><Representation id=\"dyHiAZ8.\" bandwidth=\"96000\" codecs=\"mp4a.40.2\" audioSamplingRate=\"48000\"/></AdaptationSet><AdaptationSet id=\"4\" group=\"2\" bitstreamSwitching=\"true\" segmentAlignment=\"true\" contentType=\"audio\" mimeType=\"audio/mp4\" lang=\"eng\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><SegmentTemplate timescale=\"48000\" media=\"S!dzF3ZWJU.v...wGf/QualityLevels($Bandwidth$)/Fragments(audio_483_eng=$Time$)\" initialization=\"S!dzF3ZWJU.v...wGf/QualityLevels($Bandwidth$)/Fragments(audio_483_eng=Init)\"><SegmentTimeline><S t=\"77535499436198\" d=\"96256\" r=\"3\"/><S d=\"95232\"/><S d=\"96256\" r=\"4\"/></SegmentTimeline></SegmentTemplate><Representation id=\"dyHjAZ8.\" bandwidth=\"96000\" codecs=\"mp4a.40.2\" audioSamplingRate=\"48000\"/></AdaptationSet></Period></MPD>\n"
-  }
-
-    ]
+  "bookmarks": [
+    {
+      "id": 1978,
+      "lastUpdate": "2021-03-01T13:55:17.727+0000",
+      "bookmarkPosition": 88,
+      "creationDate": "2021-03-01T13:53:50.420+0000",
+      "percentage": 1,
+      "cmsBookmarkEventType": {
+        "id": 4,
+        "name": "Stop",
+        "description": "Push stop button"
+      },
+      "cmsContentItem": {
+        "rootId": "8967072",
+        "versionId": "4528977",
+        "tmsId": "MV005363910000",
+        "connectorId": "MV005363910000",
+        "synopsis": "Após dez anos, antigos amigos de escola voltam a se encontrar e descobrem que, apesar do tempo, certas coisas não mudam.",
+        "genres": "Comédia",
+        "genresList": [
+          {
+            "id": "4",
+            "name": "Comédia"
+          }
+        ],
+        "audioLanguages": [],
+        "subtitlesLanguages": [],
+        "castMembers": [
+          {
+            "name": "Channing Tatum",
+            "photoUrl": "https://oisa.tmsimg.com/assets/321547_v9_ba.jpg"
+          },
+          {
+            "name": "Ari Graynor",
+            "photoUrl": "https://oisa.tmsimg.com/assets/257871_v9_bb.jpg"
+          },
+          {
+            "name": "Kate Mara",
+            "photoUrl": "https://oisa.tmsimg.com/assets/262770_v9_bb.jpg"
+          },
+          {
+            "name": "Lynn Collins",
+            "photoUrl": "https://oisa.tmsimg.com/assets/252878_v9_bb.jpg"
+          },
+          {
+            "name": "Brian Geraghty",
+            "photoUrl": "https://oisa.tmsimg.com/assets/222687_v9_bb.jpg"
+          },
+          {
+            "name": "Ron Livingston",
+            "photoUrl": "https://oisa.tmsimg.com/assets/68365_v9_bb.jpg"
+          },
+          {
+            "name": "Justin Long",
+            "photoUrl": "https://oisa.tmsimg.com/assets/155855_v9_ba.jpg"
+          },
+          {
+            "name": "Max Minghella",
+            "photoUrl": "https://oisa.tmsimg.com/assets/325290_v9_ba.jpg"
+          },
+          {
+            "name": "Anthony Mackie",
+            "photoUrl": "https://oisa.tmsimg.com/assets/308495_v9_bb.jpg"
+          },
+          {
+            "name": "Chris Pratt",
+            "photoUrl": "https://oisa.tmsimg.com/assets/249381_v9_bb.jpg"
+          },
+          {
+            "name": "Rosario Dawson",
+            "photoUrl": "https://oisa.tmsimg.com/assets/172464_v9_bb.jpg"
+          },
+          {
+            "name": "Jenna Dewan Tatum",
+            "photoUrl": "https://oisa.tmsimg.com/assets/445210_v9_bb.jpg"
+          },
+          {
+            "name": "Oscar Isaac",
+            "photoUrl": "https://oisa.tmsimg.com/assets/493617_v9_bb.jpg"
+          }
+        ],
+        "directors": "Jamie Linden",
+        "releaseYear": "2011",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "112876",
+            "order": 43,
+            "name": "Paramount Plus",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s112876_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s112876_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2019-04-15T00:00:00.000+0000",
+            "licensingEndDate": "2021-04-14T23:59:59.000+0000",
+            "showOnEntitlements": true,
+            "type": "DiscoveyUnityPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          }
+        ],
+        "rating": "14",
+        "durationInSeconds": 6000,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p8967072_k_h10_aa.jpg?w=1920&h=1080",
+            "type": "Backdrop"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p8967072_v_h10_ac.jpg?w=1920&h=1080",
+            "type": "Thumbnail"
+          }
+        ],
+        "programSchedules": [],
+        "programType": "Feature Film",
+        "seriesTitle": "10 Anos de Pura Amizade",
+        "connectors": [],
+        "isAdult": false,
+        "isMultiHost": false,
+        "itemType": "Movie",
+        "playType": "SVOD",
+        "title": "10 Anos de Pura Amizade",
+        "position": "10",
+        "id": "aa197490-4ba8-4335-abaf-617b49914292",
+        "slugTitle": "10-anos-de-pura-amizade"
+      }
+    },
+    {
+      "id": 1972,
+      "lastUpdate": "2021-02-26T10:06:10.539+0000",
+      "bookmarkPosition": 0,
+      "creationDate": "2021-02-25T17:45:18.420+0000",
+      "percentage": 0,
+      "cmsBookmarkEventType": {
+        "id": 4,
+        "name": "Stop",
+        "description": "Push stop button"
+      },
+      "cmsContentItem": {
+        "rootId": "12928386",
+        "seriesId": "12928185",
+        "versionId": "12928185",
+        "tmsId": "EP024375030001",
+        "connectorId": "SH024375030000",
+        "synopsis": "Cadu é um defensor público e um honesto chefe de família. Ele sempre acreditou na lei. Entretando, o advogado vê sua vida mudar completamente depois de ser confundido com um traficante de drogas e acabar na prisão.",
+        "genres": "Drama",
+        "genresList": [
+          {
+            "id": "9",
+            "name": "Drama"
+          }
+        ],
+        "audioLanguages": [
+          {
+            "language": "pt-BR",
+            "description": "Português-Brasil",
+            "original": true
+          }
+        ],
+        "subtitlesLanguages": [],
+        "castMembers": [
+          {
+            "name": "Adriano Garib",
+            "photoUrl": "https://oisa.tmsimg.com/assets/804670_v9_ba.jpg"
+          },
+          {
+            "name": "Silvio Guindane",
+            "photoUrl": "https://oisa.tmsimg.com/assets/258983_v9_ba.jpg"
+          },
+          {
+            "name": "Thogun Teixeira",
+            "photoUrl": "https://oisa.tmsimg.com/assets/747836_v9_aa.jpg"
+          },
+          {
+            "name": "Júlio Andrade",
+            "photoUrl": "https://oisa.tmsimg.com/assets/640869_v9_bb.jpg"
+          },
+          {
+            "name": "Xando Graça",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "João Fernandes",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Roberto Birindelli",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Stepan Nercessian",
+            "photoUrl": "https://oisa.tmsimg.com/assets/230418_v9_ba.jpg"
+          },
+          {
+            "name": "Julia Ianina",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          }
+        ],
+        "directors": "Breno Silveira",
+        "releaseYear": "2016",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "124408",
+            "order": 20,
+            "name": "Fox",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s10212_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s10212_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2019-03-16T03:31:00.000+0000",
+            "licensingEndDate": "2021-05-30T03:00:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "FoxPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          }
+        ],
+        "rating": "16",
+        "durationInSeconds": 1800,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p12928386_e_h10_ab.jpg",
+            "type": "Backdrop"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p12928386_e_h10_ab.jpg",
+            "type": "Thumbnail"
+          }
+        ],
+        "programSchedules": [
+          {
+            "channel": {
+              "prgSvcId": "100906",
+              "lineupPosition": 27,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100906_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100906_h3_aa.png",
+              "mediahubId": "54",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "callLetter": "STARHBR2",
+              "isDvrEnabled": false,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": false,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits 2",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-08T04:20:00Z",
+            "durationSeconds": "2580",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "100906",
+              "lineupPosition": 27,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100906_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100906_h3_aa.png",
+              "mediahubId": "54",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "callLetter": "STARHBR2",
+              "isDvrEnabled": false,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": false,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits 2",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-04T08:15:00Z",
+            "durationSeconds": "2700",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "100906",
+              "lineupPosition": 27,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100906_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100906_h3_aa.png",
+              "mediahubId": "54",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "callLetter": "STARHBR2",
+              "isDvrEnabled": false,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": false,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits 2",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-05T08:00:00Z",
+            "durationSeconds": "2580",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          }
+        ],
+        "programType": "Series",
+        "episodeNumber": 1,
+        "seasonId": "12928185_1",
+        "seasonNumber": 1,
+        "seriesTitle": "1 Contra Todos",
+        "connectors": [],
+        "mediaRoomSeriesId": "2437503",
+        "totalSeasonEpisodes": 9,
+        "isAdult": false,
+        "isMultiHost": true,
+        "itemType": "SerieEpisode",
+        "playType": "LIVE",
+        "title": "A Justiça É Cega",
+        "position": "1",
+        "id": "b983f28f-0ed4-42f8-967d-3a286d0f2a11",
+        "slugTitle": "a-justica-e-cega"
+      }
+    },
+    {
+      "id": 1958,
+      "lastUpdate": "2021-02-25T17:49:05.460+0000",
+      "bookmarkPosition": 0,
+      "creationDate": "2021-02-19T18:43:43.340+0000",
+      "percentage": 0,
+      "cmsBookmarkEventType": {
+        "id": 4,
+        "name": "Stop",
+        "description": "Push stop button"
+      },
+      "cmsContentItem": {
+        "rootId": "16646240",
+        "seriesId": "16515316",
+        "versionId": "16515316",
+        "tmsId": "EP033409640009",
+        "connectorId": "SH033409640000",
+        "synopsis": "O Xerife Swiftstone transforma Corn e Peg em agentes benfeitores, mas eles se distraem de seus deveres no tráfego; Corn e Peg ajudam a Capitã Pata de Trovão, enquanto ela tenta parar um grande pedregulho.",
+        "genres": "Animação,Aventura,Educativo,Infantil",
+        "genresList": [
+          {
+            "id": "44",
+            "name": "Animação"
+          },
+          {
+            "id": "2",
+            "name": "Aventura"
+          },
+          {
+            "id": "99",
+            "name": "Educativo"
+          },
+          {
+            "id": "78",
+            "name": "Infantil"
+          }
+        ],
+        "audioLanguages": [
+          {
+            "language": "en",
+            "description": "Inglês",
+            "original": true
+          }
+        ],
+        "subtitlesLanguages": [],
+        "castMembers": [
+          {
+            "name": "Shechinah Mpumlwana",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Jaiden Cannatelli",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          }
+        ],
+        "directors": "",
+        "releaseYear": "2019",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "103590",
+            "order": 9,
+            "name": "Noggin",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s19211_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s19211_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2021-03-01T09:44:42.117+0000",
+            "licensingEndDate": "9999-12-31T23:59:59.997+0000",
+            "showOnEntitlements": true,
+            "type": "DiscoveyUnityPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          },
+          {
+            "id": null,
+            "hostId": "C_78242",
+            "order": 72,
+            "name": "Nick Jr. (Catchup)",
+            "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s78242_h3_aa.png",
+            "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s78242_h3_aa.png",
+            "licensingStartDate": "2021-02-06T03:30:00.000+0000",
+            "licensingEndDate": "2021-03-14T17:00:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "Catchup",
+            "vsppChannelId": "NKJRBRZ",
+            "channelId": "78242",
+            "isDownloadable": false
+          }
+        ],
+        "rating": "L",
+        "durationInSeconds": 1500,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p16646240_e_h8_aa.jpg",
+            "type": "Thumbnail"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p16646240_e_h8_aa.jpg",
+            "type": "Backdrop"
+          }
+        ],
+        "programSchedules": [
+          {
+            "channel": {
+              "prgSvcId": "78242",
+              "lineupPosition": 1061,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s78242_h3_aa.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s78242_h3_aa.png",
+              "mediahubId": "63",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 9,
+              "categoryName": "Infantil",
+              "isLive": true,
+              "stationId": "1",
+              "glfId": "218",
+              "relatedHostId": "",
+              "callLetter": "NKJRBRZ",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Nick Jr.",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-07T16:30:00Z",
+            "durationSeconds": "1800",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          }
+        ],
+        "programType": "Series",
+        "episodeNumber": 1,
+        "seasonId": "16515316_1",
+        "seasonNumber": 1,
+        "seriesTitle": "Corn & Peg",
+        "connectors": [],
+        "mediaRoomSeriesId": "3340964",
+        "totalSeasonEpisodes": 37,
+        "isAdult": false,
+        "isMultiHost": true,
+        "itemType": "SerieEpisode",
+        "playType": "LIVE",
+        "title": "Agentes Benfeitores; Dia de Brincar",
+        "position": "9",
+        "id": "4389c2d5-4e60-43d6-b3c0-efc09a5d6258",
+        "slugTitle": "agentes-benfeitores-dia-de-brincar"
+      }
+    },
+    {
+      "id": 1966,
+      "lastUpdate": "2021-02-25T17:47:07.591+0000",
+      "bookmarkPosition": 11,
+      "creationDate": "2021-02-22T16:25:26.232+0000",
+      "percentage": 0,
+      "cmsBookmarkEventType": {
+        "id": 4,
+        "name": "Stop",
+        "description": "Push stop button"
+      },
+      "cmsContentItem": {
+        "rootId": "18593890",
+        "seriesId": "15271359",
+        "versionId": "15271359",
+        "tmsId": "EP029561270020",
+        "connectorId": "SH029561270000",
+        "synopsis": "Rocha vence as eleições e é nomeado candidato à presidência.",
+        "genres": "Drama,Suspense",
+        "genresList": [
+          {
+            "id": "9",
+            "name": "Drama"
+          },
+          {
+            "id": "19",
+            "name": "Suspense"
+          }
+        ],
+        "audioLanguages": [
+          {
+            "language": "es",
+            "description": "Castelhano",
+            "original": false
+          }
+        ],
+        "subtitlesLanguages": [
+          {
+            "language": "pt",
+            "description": "Português",
+            "original": false
+          }
+        ],
+        "castMembers": [
+          {
+            "name": "Paulina Dávila",
+            "photoUrl": "https://oisa.tmsimg.com/assets/763761_v9_ba.jpg"
+          },
+          {
+            "name": "Ariadna Gil",
+            "photoUrl": "https://oisa.tmsimg.com/assets/72265_v9_ba.jpg"
+          },
+          {
+            "name": "Sofía Sisniega",
+            "photoUrl": "https://oisa.tmsimg.com/assets/561817_v9_bb.jpg"
+          },
+          {
+            "name": "Gilberto Barraza",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Alfonso Dosal",
+            "photoUrl": "https://oisa.tmsimg.com/assets/712428_v9_ba.jpg"
+          },
+          {
+            "name": "Teresa Ruiz",
+            "photoUrl": "https://oisa.tmsimg.com/assets/643023_v9_ba.jpg"
+          },
+          {
+            "name": "Andrés Almeida",
+            "photoUrl": "https://oisa.tmsimg.com/assets/334893_v9_ba.jpg"
+          },
+          {
+            "name": "Tenoch Huerta",
+            "photoUrl": "https://oisa.tmsimg.com/assets/556463_v9_ba.jpg"
+          },
+          {
+            "name": "Daniel Giménez Cacho",
+            "photoUrl": "https://oisa.tmsimg.com/assets/182178_v9_ba.jpg"
+          },
+          {
+            "name": "Gael García Bernal",
+            "photoUrl": "https://oisa.tmsimg.com/assets/163723_v9_bb.jpg"
+          }
+        ],
+        "directors": "",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "124403",
+            "order": 6,
+            "name": "Fox Premium",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s100417_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s100417_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2020-07-23T01:15:00.000+0000",
+            "licensingEndDate": "2021-06-30T03:00:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "FoxPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          },
+          {
+            "id": null,
+            "hostId": "C_100898",
+            "order": 45,
+            "name": "Star Hits (Catchup)",
+            "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+            "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+            "licensingStartDate": "2021-01-30T14:46:00.000+0000",
+            "licensingEndDate": "2021-03-06T10:57:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "Catchup",
+            "vsppChannelId": "FOX1HD",
+            "channelId": "100898",
+            "isDownloadable": false
+          }
+        ],
+        "rating": "18",
+        "durationInSeconds": 3600,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p18593890_e_h10_aa.jpg",
+            "type": "Thumbnail"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p18593890_e_h10_aa.jpg",
+            "type": "Backdrop"
+          }
+        ],
+        "programSchedules": [],
+        "programType": "Series",
+        "episodeNumber": 8,
+        "seasonId": "15271359_2",
+        "seasonNumber": 2,
+        "seriesTitle": "Aqui na Terra",
+        "connectors": [],
+        "mediaRoomSeriesId": "2956127",
+        "totalSeasonEpisodes": 9,
+        "isAdult": false,
+        "isMultiHost": true,
+        "itemType": "SerieEpisode",
+        "playType": "LIVE",
+        "title": "O Meu Corpo Será um Cadáver",
+        "position": "8",
+        "id": "d6c38f98-945e-4cdf-9572-5115ddcf1eac",
+        "slugTitle": "o-meu-corpo-sera-um-cadaver"
+      }
+    },
+    {
+      "id": 1961,
+      "lastUpdate": "2021-02-25T17:37:29.412+0000",
+      "bookmarkPosition": 2069,
+      "creationDate": "2021-02-20T00:18:57.313+0000",
+      "percentage": 80,
+      "cmsBookmarkEventType": {
+        "id": 4,
+        "name": "Stop",
+        "description": "Push stop button"
+      },
+      "cmsContentItem": {
+        "rootId": "13150554",
+        "seriesId": "13150541",
+        "versionId": "13150541",
+        "tmsId": "EP024856710003",
+        "connectorId": "SH024856710000",
+        "synopsis": "O privê está em festa com a inauguração do American Bar. O vídeo que Bruna gravou repercute bem nas redes sociais. Bruna acaba sendo a escolhida para satisfazer os desejos mais sórdidos de um importante cliente.",
+        "genres": "Drama",
+        "genresList": [
+          {
+            "id": "9",
+            "name": "Drama"
+          }
+        ],
+        "audioLanguages": [
+          {
+            "language": "pt-BR",
+            "description": "Português-Brasil",
+            "original": true
+          }
+        ],
+        "subtitlesLanguages": [],
+        "castMembers": [
+          {
+            "name": "Maria Bopp",
+            "photoUrl": "https://oisa.tmsimg.com/assets/974868_v9_ba.jpg"
+          },
+          {
+            "name": "Augusto Madeira",
+            "photoUrl": "https://oisa.tmsimg.com/assets/664904_v9_aa.jpg"
+          },
+          {
+            "name": "Simone Mazzer",
+            "photoUrl": "https://oisa.tmsimg.com/assets/730044_v9_ba.jpg"
+          },
+          {
+            "name": "Jonas Bloch",
+            "photoUrl": "https://oisa.tmsimg.com/assets/80108_v9_ba.jpg"
+          },
+          {
+            "name": "Wallace Ruy",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Ludmilla Cohen",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Ariclenes Barroso",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Jonathan Haagensen",
+            "photoUrl": "https://oisa.tmsimg.com/assets/285939_v9_ab.jpg"
+          },
+          {
+            "name": "Susanna Kruger",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Nash Laila",
+            "photoUrl": "https://oisa.tmsimg.com/assets/673128_v9_ba.jpg"
+          },
+          {
+            "name": "Isabelle Ribas",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Luciana Paes",
+            "photoUrl": "https://oisa.tmsimg.com/assets/720235_v9_aa.jpg"
+          },
+          {
+            "name": "Stella Rabello",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Clarice Niskier",
+            "photoUrl": "https://oisa.tmsimg.com/assets/503684_v9_aa.jpg"
+          },
+          {
+            "name": "Carla Ribas",
+            "photoUrl": "https://oisa.tmsimg.com/assets/733158_v9_ba.jpg"
+          }
+        ],
+        "directors": "Márcia Faria",
+        "releaseYear": "2016",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "124403",
+            "order": 6,
+            "name": "Fox Premium",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s100417_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s100417_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2018-06-01T03:00:00.000+0000",
+            "licensingEndDate": "2021-06-30T03:00:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "FoxPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          }
+        ],
+        "rating": "18",
+        "durationInSeconds": 2580,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p13150554_e_h10_ab.jpg",
+            "type": "Thumbnail"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p13150554_e_h10_ab.jpg",
+            "type": "Backdrop"
+          }
+        ],
+        "programSchedules": [
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-05T07:28:00Z",
+            "durationSeconds": "2520",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-02T07:36:00Z",
+            "durationSeconds": "2640",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-06T11:02:00Z",
+            "durationSeconds": "2640",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          }
+        ],
+        "programType": "Series",
+        "episodeNumber": 3,
+        "seasonId": "13150541_1",
+        "seasonNumber": 1,
+        "seriesTitle": "#MeChamaDeBruna",
+        "connectors": [],
+        "mediaRoomSeriesId": "2485671",
+        "totalSeasonEpisodes": 8,
+        "isAdult": false,
+        "isMultiHost": true,
+        "itemType": "SerieEpisode",
+        "playType": "LIVE",
+        "title": "#MeChamaDeBruna",
+        "position": "3",
+        "id": "29e55feb-5891-4132-aefe-01ee2f7c6b51",
+        "slugTitle": "mechamadebruna_3"
+      }
+    },
+    {
+      "id": 1955,
+      "lastUpdate": "2021-02-25T17:29:51.802+0000",
+      "bookmarkPosition": 1130,
+      "creationDate": "2021-02-19T18:15:23.804+0000",
+      "percentage": 42,
+      "cmsBookmarkEventType": {
+        "id": 4,
+        "name": "Stop",
+        "description": "Push stop button"
+      },
+      "cmsContentItem": {
+        "rootId": "13150549",
+        "seriesId": "13150541",
+        "versionId": "13150541",
+        "tmsId": "EP024856710001",
+        "connectorId": "SH024856710000",
+        "synopsis": "Raquel consegue ser aceita no privê e inicia sua vida profissional atendendo os primeiros clientes. Ela desperta a inveja das outras mulheres que trabalham lá, principalmente Jéssica, que tenta descobrir o ponto fraco da novata.",
+        "genres": "Drama",
+        "genresList": [
+          {
+            "id": "9",
+            "name": "Drama"
+          }
+        ],
+        "audioLanguages": [
+          {
+            "language": "pt-BR",
+            "description": "Português-Brasil",
+            "original": true
+          }
+        ],
+        "subtitlesLanguages": [],
+        "castMembers": [
+          {
+            "name": "Maria Bopp",
+            "photoUrl": "https://oisa.tmsimg.com/assets/974868_v9_ba.jpg"
+          },
+          {
+            "name": "Augusto Madeira",
+            "photoUrl": "https://oisa.tmsimg.com/assets/664904_v9_aa.jpg"
+          },
+          {
+            "name": "Simone Mazzer",
+            "photoUrl": "https://oisa.tmsimg.com/assets/730044_v9_ba.jpg"
+          },
+          {
+            "name": "Jonas Bloch",
+            "photoUrl": "https://oisa.tmsimg.com/assets/80108_v9_ba.jpg"
+          },
+          {
+            "name": "Wallace Ruy",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Ludmilla Cohen",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Ariclenes Barroso",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Jonathan Haagensen",
+            "photoUrl": "https://oisa.tmsimg.com/assets/285939_v9_ab.jpg"
+          },
+          {
+            "name": "Susanna Kruger",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Nash Laila",
+            "photoUrl": "https://oisa.tmsimg.com/assets/673128_v9_ba.jpg"
+          },
+          {
+            "name": "Isabelle Ribas",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Luciana Paes",
+            "photoUrl": "https://oisa.tmsimg.com/assets/720235_v9_aa.jpg"
+          },
+          {
+            "name": "Stella Rabello",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Clarice Niskier",
+            "photoUrl": "https://oisa.tmsimg.com/assets/503684_v9_aa.jpg"
+          },
+          {
+            "name": "Carla Ribas",
+            "photoUrl": "https://oisa.tmsimg.com/assets/733158_v9_ba.jpg"
+          }
+        ],
+        "directors": "Márcia Faria",
+        "releaseYear": "2016",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "C_100898",
+            "order": 45,
+            "name": "Star Hits (Catchup)",
+            "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+            "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+            "licensingStartDate": "2021-02-02T07:06:00.000+0000",
+            "licensingEndDate": "2021-03-13T10:21:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "Catchup",
+            "vsppChannelId": "FOX1HD",
+            "channelId": "100898",
+            "isDownloadable": false
+          },
+          {
+            "id": null,
+            "hostId": "124408",
+            "order": 20,
+            "name": "Fox",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s10212_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s10212_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2018-06-01T03:00:00.000+0000",
+            "licensingEndDate": "2021-06-30T03:00:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "FoxPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          }
+        ],
+        "rating": "18",
+        "durationInSeconds": 2640,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p13150549_e_h10_aa.jpg",
+            "type": "Backdrop"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p13150549_e_h10_aa.jpg",
+            "type": "Thumbnail"
+          }
+        ],
+        "programSchedules": [
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-06T09:36:00Z",
+            "durationSeconds": "2700",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-02T06:08:00Z",
+            "durationSeconds": "2700",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-05T06:03:00Z",
+            "durationSeconds": "2700",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          }
+        ],
+        "programType": "Series",
+        "episodeNumber": 1,
+        "seasonId": "13150541_1",
+        "seasonNumber": 1,
+        "seriesTitle": "#MeChamaDeBruna",
+        "connectors": [],
+        "mediaRoomSeriesId": "2485671",
+        "totalSeasonEpisodes": 8,
+        "isAdult": false,
+        "isMultiHost": true,
+        "itemType": "SerieEpisode",
+        "playType": "LIVE",
+        "title": "#MeChamaDeBruna",
+        "position": "2",
+        "id": "85a207ec-3059-4c43-bf9e-39ce890f65e2",
+        "slugTitle": "mechamadebruna_1"
+      }
+    },
+    {
+      "id": 1963,
+      "lastUpdate": "2021-02-24T22:13:34.682+0000",
+      "bookmarkPosition": 0,
+      "creationDate": "2021-02-20T00:23:53.646+0000",
+      "percentage": 0,
+      "cmsBookmarkEventType": {
+        "id": 4,
+        "name": "Stop",
+        "description": "Push stop button"
+      },
+      "cmsContentItem": {
+        "rootId": "13378681",
+        "seriesId": "13150541",
+        "versionId": "13150541",
+        "tmsId": "EP024856710008",
+        "connectorId": "SH024856710000",
+        "synopsis": "Stella fica mais louca; Jessica tem um bebê e Bruna começa a vê-los como sua nova família; visitante inesperado põe a todos em risco.",
+        "genres": "Drama",
+        "genresList": [
+          {
+            "id": "9",
+            "name": "Drama"
+          }
+        ],
+        "audioLanguages": [
+          {
+            "language": "pt-BR",
+            "description": "Português-Brasil",
+            "original": true
+          }
+        ],
+        "subtitlesLanguages": [],
+        "castMembers": [
+          {
+            "name": "Maria Bopp",
+            "photoUrl": "https://oisa.tmsimg.com/assets/974868_v9_ba.jpg"
+          },
+          {
+            "name": "Augusto Madeira",
+            "photoUrl": "https://oisa.tmsimg.com/assets/664904_v9_aa.jpg"
+          },
+          {
+            "name": "Simone Mazzer",
+            "photoUrl": "https://oisa.tmsimg.com/assets/730044_v9_ba.jpg"
+          },
+          {
+            "name": "Jonas Bloch",
+            "photoUrl": "https://oisa.tmsimg.com/assets/80108_v9_ba.jpg"
+          },
+          {
+            "name": "Wallace Ruy",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Ludmilla Cohen",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Ariclenes Barroso",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Jonathan Haagensen",
+            "photoUrl": "https://oisa.tmsimg.com/assets/285939_v9_ab.jpg"
+          },
+          {
+            "name": "Susanna Kruger",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Nash Laila",
+            "photoUrl": "https://oisa.tmsimg.com/assets/673128_v9_ba.jpg"
+          },
+          {
+            "name": "Isabelle Ribas",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Luciana Paes",
+            "photoUrl": "https://oisa.tmsimg.com/assets/720235_v9_aa.jpg"
+          },
+          {
+            "name": "Stella Rabello",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Clarice Niskier",
+            "photoUrl": "https://oisa.tmsimg.com/assets/503684_v9_aa.jpg"
+          },
+          {
+            "name": "Carla Ribas",
+            "photoUrl": "https://oisa.tmsimg.com/assets/733158_v9_ba.jpg"
+          }
+        ],
+        "directors": "Márcia Faria",
+        "releaseYear": "2016",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "124403",
+            "order": 6,
+            "name": "Fox Premium",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s100417_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s100417_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2018-06-01T03:00:00.000+0000",
+            "licensingEndDate": "2021-06-30T03:00:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "FoxPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          }
+        ],
+        "rating": "18",
+        "durationInSeconds": 2460,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p13378681_e_h11_aa.jpg",
+            "type": "Backdrop"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p13378681_e_h11_aa.jpg",
+            "type": "Thumbnail"
+          }
+        ],
+        "programSchedules": [
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-09T07:13:00Z",
+            "durationSeconds": "2520",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-12T07:48:00Z",
+            "durationSeconds": "2520",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          }
+        ],
+        "programType": "Series",
+        "episodeNumber": 8,
+        "seasonId": "13150541_1",
+        "seasonNumber": 1,
+        "seriesTitle": "#MeChamaDeBruna",
+        "connectors": [],
+        "totalSeasonEpisodes": 8,
+        "isAdult": false,
+        "isMultiHost": true,
+        "itemType": "SerieEpisode",
+        "playType": "LIVE",
+        "title": "#MeChamaDeBruna",
+        "position": "5",
+        "id": "9dcafd1b-34eb-4924-a686-00513f81e88d",
+        "slugTitle": "mechamadebruna_8"
+      }
+    },
+    {
+      "id": 1962,
+      "lastUpdate": "2021-02-20T00:21:40.530+0000",
+      "bookmarkPosition": 0,
+      "creationDate": "2021-02-20T00:21:38.223+0000",
+      "percentage": 0,
+      "cmsBookmarkEventType": {
+        "id": 4,
+        "name": "Stop",
+        "description": "Push stop button"
+      },
+      "cmsContentItem": {
+        "rootId": "13378641",
+        "seriesId": "13150541",
+        "versionId": "13150541",
+        "tmsId": "EP024856710004",
+        "connectorId": "SH024856710000",
+        "synopsis": "Bruna e José Ricardo vivem um clima de lua de mel e fazem planos. Mas a ameaça representada por seus credores está cada vez mais concreta e perigosa. Sem alternativa, José Ricardo busca refúgio na casa de Jéssica enquanto Bruna volta ao privê.",
+        "genres": "Drama",
+        "genresList": [
+          {
+            "id": "9",
+            "name": "Drama"
+          }
+        ],
+        "audioLanguages": [
+          {
+            "language": "pt-BR",
+            "description": "Português-Brasil",
+            "original": true
+          }
+        ],
+        "subtitlesLanguages": [],
+        "castMembers": [
+          {
+            "name": "Maria Bopp",
+            "photoUrl": "https://oisa.tmsimg.com/assets/974868_v9_ba.jpg"
+          },
+          {
+            "name": "Augusto Madeira",
+            "photoUrl": "https://oisa.tmsimg.com/assets/664904_v9_aa.jpg"
+          },
+          {
+            "name": "Simone Mazzer",
+            "photoUrl": "https://oisa.tmsimg.com/assets/730044_v9_ba.jpg"
+          },
+          {
+            "name": "Jonas Bloch",
+            "photoUrl": "https://oisa.tmsimg.com/assets/80108_v9_ba.jpg"
+          },
+          {
+            "name": "Wallace Ruy",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Ludmilla Cohen",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Ariclenes Barroso",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Jonathan Haagensen",
+            "photoUrl": "https://oisa.tmsimg.com/assets/285939_v9_ab.jpg"
+          },
+          {
+            "name": "Susanna Kruger",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Nash Laila",
+            "photoUrl": "https://oisa.tmsimg.com/assets/673128_v9_ba.jpg"
+          },
+          {
+            "name": "Isabelle Ribas",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Luciana Paes",
+            "photoUrl": "https://oisa.tmsimg.com/assets/720235_v9_aa.jpg"
+          },
+          {
+            "name": "Stella Rabello",
+            "photoUrl": "https://internettv-rms.stgonline.go.oi.com.br/oiplay/images/default_cast.jpg"
+          },
+          {
+            "name": "Clarice Niskier",
+            "photoUrl": "https://oisa.tmsimg.com/assets/503684_v9_aa.jpg"
+          },
+          {
+            "name": "Carla Ribas",
+            "photoUrl": "https://oisa.tmsimg.com/assets/733158_v9_ba.jpg"
+          }
+        ],
+        "directors": "Márcia Faria",
+        "releaseYear": "2016",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "124403",
+            "order": 6,
+            "name": "Fox Premium",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s100417_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s100417_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2018-06-01T03:00:00.000+0000",
+            "licensingEndDate": "2021-06-30T03:00:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "FoxPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          }
+        ],
+        "rating": "18",
+        "durationInSeconds": 2460,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p13378641_e_h10_ab.jpg",
+            "type": "Thumbnail"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p13378641_e_h10_ab.jpg",
+            "type": "Backdrop"
+          }
+        ],
+        "programSchedules": [
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-02T08:20:00Z",
+            "durationSeconds": "4140",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-13T09:32:00Z",
+            "durationSeconds": "2580",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "100898",
+              "lineupPosition": 3,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+              "mediahubId": "53",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 8,
+              "categoryName": "Filmes e Séries",
+              "isLive": true,
+              "relatedHostId": "",
+              "callLetter": "STARHBR",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Star Hits",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-05T08:10:00Z",
+            "durationSeconds": "2580",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          }
+        ],
+        "programType": "Series",
+        "episodeNumber": 4,
+        "seasonId": "13150541_1",
+        "seasonNumber": 1,
+        "seriesTitle": "#MeChamaDeBruna",
+        "connectors": [],
+        "mediaRoomSeriesId": "2485671",
+        "totalSeasonEpisodes": 8,
+        "isAdult": false,
+        "isMultiHost": true,
+        "itemType": "SerieEpisode",
+        "playType": "LIVE",
+        "title": "#MeChamaDeBruna",
+        "position": "4",
+        "id": "ab6eafb5-7196-460e-a7c0-21f0abdb3361",
+        "slugTitle": "mechamadebruna_4"
+      }
+    },
+    {
+      "id": 1914,
+      "lastUpdate": "2021-02-08T12:34:23.795+0000",
+      "bookmarkPosition": 19,
+      "creationDate": "2021-02-08T12:34:03.773+0000",
+      "percentage": 1,
+      "cmsBookmarkEventType": {
+        "id": 2,
+        "name": "Play",
+        "description": "Push play button"
+      },
+      "cmsContentItem": {
+        "rootId": "15078126",
+        "seriesId": "13060983",
+        "versionId": "13060983",
+        "tmsId": "EP025137040016",
+        "connectorId": "SH025137040000",
+        "synopsis": "A dupla se envolve em um esquema de cartão de crédito enquanto aprende sobre trapping. O público expressa seus agradecimentos por golpistas de cartão de crédito.",
+        "genres": "Comédia Dramática",
+        "genresList": [
+          {
+            "id": "22",
+            "name": "Comédia Dramática"
+          }
+        ],
+        "audioLanguages": [
+          {
+            "language": "en",
+            "description": "Inglês",
+            "original": true
+          }
+        ],
+        "subtitlesLanguages": [],
+        "castMembers": [
+          {
+            "name": "Brian Tyree Henry",
+            "photoUrl": "https://oisa.tmsimg.com/assets/589461_v9_ba.jpg"
+          },
+          {
+            "name": "Lakeith Stanfield",
+            "photoUrl": "https://oisa.tmsimg.com/assets/1034620_v9_ba.jpg"
+          },
+          {
+            "name": "Zazie Beetz",
+            "photoUrl": "https://oisa.tmsimg.com/assets/981946_v9_bb.jpg"
+          },
+          {
+            "name": "Donald Glover",
+            "photoUrl": "https://oisa.tmsimg.com/assets/550133_v9_bc.jpg"
+          }
+        ],
+        "directors": "Hiro Murai",
+        "releaseYear": "2018",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "124403",
+            "order": 6,
+            "name": "Fox Premium",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s100417_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s100417_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2019-03-16T03:31:00.000+0000",
+            "licensingEndDate": "2021-06-30T03:00:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "FoxPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          },
+          {
+            "id": null,
+            "hostId": "C_100898",
+            "order": 45,
+            "name": "Star Hits (Catchup)",
+            "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_aa.png",
+            "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s100898_h3_ba.png",
+            "licensingStartDate": "2021-02-08T12:22:00.000+0000",
+            "licensingEndDate": "2021-03-04T22:41:00.000+0000",
+            "showOnEntitlements": true,
+            "type": "Catchup",
+            "vsppChannelId": "FOX1HD",
+            "channelId": "100898",
+            "isDownloadable": false
+          }
+        ],
+        "rating": "16",
+        "durationInSeconds": 1800,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p15078126_e_h8_aa.jpg",
+            "type": "Backdrop"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p15078126_e_h8_aa.jpg",
+            "type": "Thumbnail"
+          }
+        ],
+        "programSchedules": [],
+        "programType": "Series",
+        "episodeNumber": 2,
+        "seasonId": "13060983_2",
+        "seasonNumber": 2,
+        "seriesTitle": "Atlanta",
+        "connectors": [],
+        "mediaRoomSeriesId": "2513704",
+        "totalSeasonEpisodes": 11,
+        "isAdult": false,
+        "isMultiHost": true,
+        "itemType": "SerieEpisode",
+        "playType": "LIVE",
+        "title": "Sportin' Waves",
+        "position": "6",
+        "id": "42592ac4-6901-46ab-954b-707968d931cb",
+        "slugTitle": "sportin-waves"
+      }
+    },
+    {
+      "id": 1692,
+      "lastUpdate": "2020-11-24T19:28:36.178+0000",
+      "bookmarkPosition": 0,
+      "creationDate": "2020-11-24T19:28:36.188+0000",
+      "percentage": 0,
+      "cmsBookmarkEventType": {
+        "id": 4,
+        "name": "Stop",
+        "description": "Push stop button"
+      },
+      "cmsContentItem": {
+        "rootId": "14527729",
+        "seriesId": "11129231",
+        "versionId": "11129231",
+        "tmsId": "EP029548570021",
+        "connectorId": "SH029548570000",
+        "synopsis": "Quando a Coroa Animal é perdida no fundo do oceano, Blaze se transforma em um tubarão.",
+        "genres": "Animação,Aventura,Educativo,Fantasia,Infantil",
+        "genresList": [
+          {
+            "id": "44",
+            "name": "Animação"
+          },
+          {
+            "id": "2",
+            "name": "Aventura"
+          },
+          {
+            "id": "99",
+            "name": "Educativo"
+          },
+          {
+            "id": "11",
+            "name": "Fantasia"
+          },
+          {
+            "id": "78",
+            "name": "Infantil"
+          }
+        ],
+        "audioLanguages": [
+          {
+            "language": "en",
+            "description": "Inglês",
+            "original": true
+          }
+        ],
+        "subtitlesLanguages": [],
+        "castMembers": [
+          {
+            "name": "Angelina Wahler",
+            "photoUrl": "https://oisa.tmsimg.com/assets/715916_v9_ba.jpg"
+          },
+          {
+            "name": "Dee Bradley Baker",
+            "photoUrl": "https://oisa.tmsimg.com/assets/162424_v9_bb.jpg"
+          },
+          {
+            "name": "Nat Faxon",
+            "photoUrl": "https://oisa.tmsimg.com/assets/284469_v9_bb.jpg"
+          },
+          {
+            "name": "Kate Higgins",
+            "photoUrl": "https://oisa.tmsimg.com/assets/530577_v9_ba.jpg"
+          },
+          {
+            "name": "Alexander Polinsky",
+            "photoUrl": "https://oisa.tmsimg.com/assets/220943_v9_ba.jpg"
+          },
+          {
+            "name": "Jeff Bennett",
+            "photoUrl": "https://oisa.tmsimg.com/assets/160236_v9_bb.jpg"
+          },
+          {
+            "name": "James Patrick Stuart",
+            "photoUrl": "https://oisa.tmsimg.com/assets/153846_v9_bb.jpg"
+          },
+          {
+            "name": "Dusan Brown",
+            "photoUrl": "https://oisa.tmsimg.com/assets/643634_v9_bb.jpg"
+          },
+          {
+            "name": "Nolan North",
+            "photoUrl": "https://oisa.tmsimg.com/assets/199883_v9_ba.jpg"
+          },
+          {
+            "name": "Kevin Michael Richardson",
+            "photoUrl": "https://oisa.tmsimg.com/assets/68425_v9_bb.jpg"
+          },
+          {
+            "name": "Sunil Malhotra",
+            "photoUrl": "https://oisa.tmsimg.com/assets/320250_v9_ba.jpg"
+          }
+        ],
+        "directors": "Miguel Martinez-Joffre,Shawn Gulley",
+        "releaseYear": "2017",
+        "contentProviders": [
+          {
+            "id": null,
+            "hostId": "103590",
+            "order": 9,
+            "name": "Noggin",
+            "negativeLogoUrl": "https://demo.tmsimg.com/assets/s19211_ld_h15_aa.png?w=512",
+            "positiveLogoUrl": "https://demo.tmsimg.com/assets/s19211_lw_h15_aa.png?w=512",
+            "licensingStartDate": "2021-03-01T09:44:52.587+0000",
+            "licensingEndDate": "9999-12-31T23:59:59.997+0000",
+            "showOnEntitlements": true,
+            "type": "DiscoveyUnityPlayableExternalSvod",
+            "vsppChannelId": null,
+            "channelId": null,
+            "isDownloadable": false
+          }
+        ],
+        "rating": "L",
+        "durationInSeconds": 1800,
+        "programImages": [
+          {
+            "url": "https://oisa.tmsimg.com/assets/p14527729_e_h10_ab.jpg",
+            "type": "Thumbnail"
+          },
+          {
+            "url": "https://oisa.tmsimg.com/assets/p14527729_e_h10_ab.jpg",
+            "type": "Backdrop"
+          }
+        ],
+        "programSchedules": [
+          {
+            "channel": {
+              "prgSvcId": "78242",
+              "lineupPosition": 1061,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s78242_h3_aa.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s78242_h3_aa.png",
+              "mediahubId": "63",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "ios",
+                  "address": ""
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                }
+              ],
+              "categoryId": 9,
+              "categoryName": "Infantil",
+              "isLive": true,
+              "stationId": "1",
+              "glfId": "218",
+              "relatedHostId": "",
+              "callLetter": "NKJRBRZ",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Nick Jr.",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-06T04:30:00Z",
+            "durationSeconds": "1800",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          },
+          {
+            "channel": {
+              "prgSvcId": "75919",
+              "lineupPosition": 33,
+              "positiveLogoUrl": "https://oisa.tmsimg.com/assets/s75919_h3_ba.png",
+              "negativeLogoUrl": "https://oisa.tmsimg.com/assets/s75919_h3_aa.png",
+              "mediahubId": "64",
+              "siServiceId": "209",
+              "type": "Internal",
+              "links": [
+                {
+                  "type": "android",
+                  "address": ""
+                },
+                {
+                  "type": "androidtv",
+                  "address": null
+                },
+                {
+                  "type": "web",
+                  "address": ""
+                },
+                {
+                  "type": "ios",
+                  "address": ""
+                }
+              ],
+              "categoryId": 9,
+              "categoryName": "Infantil",
+              "isLive": true,
+              "stationId": "1",
+              "glfId": "217",
+              "callLetter": "NICHD",
+              "isDvrEnabled": true,
+              "isNPvrEnabled": false,
+              "isTimeshiftEnabled": true,
+              "isCatchupEnabled": true,
+              "isAnonymous": false,
+              "itemType": "Channel",
+              "playType": "LIVE",
+              "title": "Nickelodeon HD",
+              "position": 1,
+              "id": "00000000-0000-0000-0000-000000000000",
+              "live": true
+            },
+            "startTimeUtc": "2021-03-08T09:00:00Z",
+            "durationSeconds": "1800",
+            "timelinePosition": "After",
+            "mediaroomProgramId": null
+          }
+        ],
+        "programType": "Series",
+        "episodeNumber": 12,
+        "seasonId": "11129231_3",
+        "seasonNumber": 3,
+        "seriesTitle": "Blaze & The Monster Machines",
+        "connectors": [],
+        "mediaRoomSeriesId": "2954857",
+        "totalSeasonEpisodes": 19,
+        "isAdult": false,
+        "isMultiHost": false,
+        "itemType": "SerieEpisode",
+        "playType": "LIVE",
+        "title": "A Grande Coroa Animal",
+        "position": "7",
+        "id": "79ed4ba0-e865-4253-9ad6-1b5c9a1204d8",
+        "slugTitle": ""
+      }
+    }
+  ]
 }
+
 
